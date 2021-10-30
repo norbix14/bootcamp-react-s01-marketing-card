@@ -1,0 +1,44 @@
+:root {
+	--ff-bentham: 'Bentham', serif;
+	--ff-raleway: 'Raleway', sans-serif;
+	--ff-trocchi: 'Trocchi', serif;
+	--ff-suranna: 'Suranna', serif;
+  --bg-blue: rgba(0,0,240, 0.9);
+  --btn-buy-main: rgba(63, 217, 191, 1);
+  --btn-buy-light: rgba(63, 217, 191, 0.7);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 18px;
+}
+
+span {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+img {
+	width: 100%;
+}

@@ -1,0 +1,54 @@
+/* containers */
+.container {
+	height: 100vh;
+}
+
+.cards-container {
+	border-radius: 10px;
+}
+
+/* cards */
+.cards {
+  background-color: #fff;
+	position: relative;
+	margin: 30px auto;
+	border-radius: 10px;
+	box-shadow: 0 0 20px #eee;
+  height: auto;
+  overflow: hidden;
+}
+
+/* product description */
+/* header */
+.product-header h2 {
+	font-family: var(--ff-suranna);
+}
+
+.product-header p {
+	text-transform: uppercase;
+	font-family: var(--ff-raleway);
+}
+
+/* body */
+.product-body p {
+	font-family: var(--ff-suranna);
+}
+
+/* footer */
+.product-price {
+	font-family: var(--ff-suranna);
+}
+
+.btn-buy {
+  border: none;
+  color: #fff;
+	text-transform: uppercase;
+	font-family: var(--ff-raleway);
+	background-color: var(--btn-buy-light);
+  transition: all .3s ease;
+}
+
+.btn-buy:hover {
+	cursor: pointer;
+  background-color: var(--btn-buy-main);
+}
